@@ -1,4 +1,4 @@
-# 
+#
 
 [![npm version](https://badge.fury.io/js/PACKAGE_NAME.svg)](https://badge.fury.io/js/PACKAGE_NAME)
 [![License](https://img.shields.io/npm/l/PACKAGE_NAME)](https://github.com/simochee/PACKAGE_NAME/blob/main/LICENSE)
@@ -8,7 +8,7 @@ PACKAGE_DESCRIPTION
 
 ## 🧩 Features
 
-- 
+-
 
 ## 📦 Installation
 
