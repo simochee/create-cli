@@ -6,6 +6,14 @@
     "type": "git",
     "url": "git+https://github.com/simochee/PACKAGE_NAME.git"
   },
+  "bin": "./lib/index.mjs",
+  "scripts": {
+    "build": "tsup src/index.ts --out-dir lib --format esm --clean",
+    "dev": "tsx watch src/index.ts"
+  },
+  "files": [
+    "lib"
+  ],
   "author": {
     "name": "simochee",
     "email": "lollipop@simochee.net",
@@ -14,5 +22,14 @@
   "volta": {
     "node": "20.11.0"
   },
-  "packageManager": "pnpm@9.0.0-alpha.0+sha256.73ada1a82ae5a62c3da44e4841e56d471a5f52a48590b212ea04466923689e3b"
+  "packageManager": "pnpm@9.0.0-alpha.0+sha256.73ada1a82ae5a62c3da44e4841e56d471a5f52a48590b212ea04466923689e3b",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0"
+  }
 }
