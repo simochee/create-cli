@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/npm/l/PACKAGE_NAME)](https://github.com/simochee/PACKAGE_NAME/blob/main/LICENSE)
 [![Release](https://github.com/simochee/PACKAGE_NAME/actions/workflows/release.yaml/badge.svg)](https://github.com/simochee/PACKAGE_NAME/actions/workflows/release.yaml)
 
-about this package...
+PACKAGE_DESCRIPTION
 
 ## 🧩 Features
 

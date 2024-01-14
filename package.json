@@ -1,0 +1,18 @@
+{
+  "name": "PACKAGE_NAME",
+  "description": "PACKAGE_DESCRIPTION",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simochee/PACKAGE_NAME.git"
+  },
+  "author": {
+    "name": "simochee",
+    "email": "lollipop@simochee.net",
+    "url": "https://simochee.net"
+  },
+  "volta": {
+    "node": "20.11.0"
+  },
+  "packageManager": "pnpm@9.0.0-alpha.0+sha256.73ada1a82ae5a62c3da44e4841e56d471a5f52a48590b212ea04466923689e3b"
+}
