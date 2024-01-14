@@ -27,6 +27,14 @@
       "prettier --write --ignore-unknown"
     ]
   },
+  "release": {
+    "branches": [
+      {
+        "name": "main",
+        "prerelease": true
+      }
+    ]
+  },
   "dependencies": {
     "tsup": "^8.0.1",
     "tsx": "^4.7.0"
